@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2ed997a90de70cd3d090448aaec035ae {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2ed997a90de70cd3d090448aaec035ae" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2ed997a90de70cd3d090448aaec035ae = L.map(
+                "map_2ed997a90de70cd3d090448aaec035ae",
+                {
+                    center: [-6.99, 110.42],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9c4c067f2450f37991e129f3bf0cbd74 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9c4c067f2450f37991e129f3bf0cbd74.addTo(map_2ed997a90de70cd3d090448aaec035ae);
+        
+    
+            var marker_88f5fdbb36c197972fca14951d6cfe0e = L.marker(
+                [-6.982, 110.409],
+                {
+}
+            ).addTo(map_2ed997a90de70cd3d090448aaec035ae);
+        
+    
+            var icon_83150cf26f51bc95ecb3363465054607 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6d1057d48dfe2d601b3edc67b0f8850 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6110b1a5fff9a29d945a2b5f18c6416 = $(`<div id="html_a6110b1a5fff9a29d945a2b5f18c6416" style="width: 100.0%; height: 100.0%;"><b>TPS Mataram</b><br>Jl. Mataram No.1, RT 01/RW 01<br>Kec. Semarang Barat<br>Status: Selesai</div>`)[0];
+                popup_f6d1057d48dfe2d601b3edc67b0f8850.setContent(html_a6110b1a5fff9a29d945a2b5f18c6416);
+            
+        
+
+        marker_88f5fdbb36c197972fca14951d6cfe0e.bindPopup(popup_f6d1057d48dfe2d601b3edc67b0f8850)
+        ;
+
+        
+    
+    
+                marker_88f5fdbb36c197972fca14951d6cfe0e.setIcon(icon_83150cf26f51bc95ecb3363465054607);
+            
+    
+            var marker_22d678b3e6ae97047eabdeb1d2180da1 = L.marker(
+                [-7.01, 110.459],
+                {
+}
+            ).addTo(map_2ed997a90de70cd3d090448aaec035ae);
+        
+    
+            var icon_d6534d083c500336bbddc68ad272a782 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_acd6619048b291312661186e2fad8551 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4332836997e902f19a193050801fcde = $(`<div id="html_e4332836997e902f19a193050801fcde" style="width: 100.0%; height: 100.0%;"><b>TPS Tlogosari</b><br>Jl. Tlogosari Raya No.88, RT 03/RW 05<br>Kec. Pedurungan<br>Status: Ditangani</div>`)[0];
+                popup_acd6619048b291312661186e2fad8551.setContent(html_e4332836997e902f19a193050801fcde);
+            
+        
+
+        marker_22d678b3e6ae97047eabdeb1d2180da1.bindPopup(popup_acd6619048b291312661186e2fad8551)
+        ;
+
+        
+    
+    
+                marker_22d678b3e6ae97047eabdeb1d2180da1.setIcon(icon_d6534d083c500336bbddc68ad272a782);
+            
+    
+            var marker_d76fce7bc4e945cbd3e4c4117c2656df = L.marker(
+                [-7.071, 110.423],
+                {
+}
+            ).addTo(map_2ed997a90de70cd3d090448aaec035ae);
+        
+    
+            var icon_6023c9d8e429a757bb6baf65e149bb8a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_64eebab47711c0da663736ed14dc3ec4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be83414ac3740abed05fcb5dba86e8ec = $(`<div id="html_be83414ac3740abed05fcb5dba86e8ec" style="width: 100.0%; height: 100.0%;"><b>TPS Banyumanik</b><br>Jl. Jatimulyo Raya No.17, RT 02/RW 04<br>Kec. Banyumanik<br>Status: Selesai</div>`)[0];
+                popup_64eebab47711c0da663736ed14dc3ec4.setContent(html_be83414ac3740abed05fcb5dba86e8ec);
+            
+        
+
+        marker_d76fce7bc4e945cbd3e4c4117c2656df.bindPopup(popup_64eebab47711c0da663736ed14dc3ec4)
+        ;
+
+        
+    
+    
+                marker_d76fce7bc4e945cbd3e4c4117c2656df.setIcon(icon_6023c9d8e429a757bb6baf65e149bb8a);
+            
+    
+            var marker_5a445efa9c876795af569387f2485ede = L.marker(
+                [-6.986, 110.469],
+                {
+}
+            ).addTo(map_2ed997a90de70cd3d090448aaec035ae);
+        
+    
+            var icon_3fc7ae17d68fab932b8837e4e8b44eb8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e27ab690c7077142209cbc808d24e15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5163f8feed2b5d2500a777935cb5456 = $(`<div id="html_e5163f8feed2b5d2500a777935cb5456" style="width: 100.0%; height: 100.0%;"><b>TPS Kaligawe</b><br>Jl. Kaligawe Raya No.33, RT 05/RW 02<br>Kec. Genuk<br>Status: Dilaporkan</div>`)[0];
+                popup_4e27ab690c7077142209cbc808d24e15.setContent(html_e5163f8feed2b5d2500a777935cb5456);
+            
+        
+
+        marker_5a445efa9c876795af569387f2485ede.bindPopup(popup_4e27ab690c7077142209cbc808d24e15)
+        ;
+
+        
+    
+    
+                marker_5a445efa9c876795af569387f2485ede.setIcon(icon_3fc7ae17d68fab932b8837e4e8b44eb8);
+            
+    
+            var marker_cfc5c392bbfab437e73065ed090c059f = L.marker(
+                [-6.982, 110.393],
+                {
+}
+            ).addTo(map_2ed997a90de70cd3d090448aaec035ae);
+        
+    
+            var icon_a17618182843513f2550d82da2097094 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_796ae97fe734f0488a696bb37002e799 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33f7bc669ac4f1698bd96ae4398bdac5 = $(`<div id="html_33f7bc669ac4f1698bd96ae4398bdac5" style="width: 100.0%; height: 100.0%;"><b>TPS Karangayu</b><br>Jl. Karangayu Tengah No.12, RT 01/RW 03<br>Kec. Semarang Barat<br>Status: Dilaporkan</div>`)[0];
+                popup_796ae97fe734f0488a696bb37002e799.setContent(html_33f7bc669ac4f1698bd96ae4398bdac5);
+            
+        
+
+        marker_cfc5c392bbfab437e73065ed090c059f.bindPopup(popup_796ae97fe734f0488a696bb37002e799)
+        ;
+
+        
+    
+    
+                marker_cfc5c392bbfab437e73065ed090c059f.setIcon(icon_a17618182843513f2550d82da2097094);
+            
+    
+            var marker_83d3efbaa6988a85b72be614cc744780 = L.marker(
+                [-7.015, 110.41],
+                {
+}
+            ).addTo(map_2ed997a90de70cd3d090448aaec035ae);
+        
+    
+            var icon_9694ae3fadcc454f282d0f53a6427407 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5849d86ce53a206cb9587fcd8e83492d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69491eb6488f1ed14b1cb3743d94b73a = $(`<div id="html_69491eb6488f1ed14b1cb3743d94b73a" style="width: 100.0%; height: 100.0%;"><b>TPS Jatingaleh</b><br>Jl. Jatingaleh Raya No.9, RT 04/RW 06<br>Kec. Candisari<br>Status: Dilaporkan</div>`)[0];
+                popup_5849d86ce53a206cb9587fcd8e83492d.setContent(html_69491eb6488f1ed14b1cb3743d94b73a);
+            
+        
+
+        marker_83d3efbaa6988a85b72be614cc744780.bindPopup(popup_5849d86ce53a206cb9587fcd8e83492d)
+        ;
+
+        
+    
+    
+                marker_83d3efbaa6988a85b72be614cc744780.setIcon(icon_9694ae3fadcc454f282d0f53a6427407);
+            
+    
+            var marker_0b69fa224d6e3f1aad0685e36b7ce923 = L.marker(
+                [-7.02, 110.45],
+                {
+}
+            ).addTo(map_2ed997a90de70cd3d090448aaec035ae);
+        
+    
+            var icon_aa2cf10ec4e8858c6db7dd9bf07978aa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_afcd206aa632ae0c36b374f72f5d50e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e554e89e8c013e12ed021eb603c4257a = $(`<div id="html_e554e89e8c013e12ed021eb603c4257a" style="width: 100.0%; height: 100.0%;"><b>TPS Pedurungan</b><br>Jl. BRT Raya No.22, RT 02/RW 01<br>Kec. Pedurungan<br>Status: Ditangani</div>`)[0];
+                popup_afcd206aa632ae0c36b374f72f5d50e7.setContent(html_e554e89e8c013e12ed021eb603c4257a);
+            
+        
+
+        marker_0b69fa224d6e3f1aad0685e36b7ce923.bindPopup(popup_afcd206aa632ae0c36b374f72f5d50e7)
+        ;
+
+        
+    
+    
+                marker_0b69fa224d6e3f1aad0685e36b7ce923.setIcon(icon_aa2cf10ec4e8858c6db7dd9bf07978aa);
+            
+    
+            var marker_2eb86d6c583071316d4e48c697a5b334 = L.marker(
+                [-6.973, 110.475],
+                {
+}
+            ).addTo(map_2ed997a90de70cd3d090448aaec035ae);
+        
+    
+            var icon_68f5d4b05e7e9e8cfb912c54e48990cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0efb3a7aab58c5ac6ece929f118eb8a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42a99587f92c052ddcc5d259e530f559 = $(`<div id="html_42a99587f92c052ddcc5d259e530f559" style="width: 100.0%; height: 100.0%;"><b>TPS Genuk</b><br>Jl. Genuk Indah No.7, RT 03/RW 05<br>Kec. Genuk<br>Status: Ditangani</div>`)[0];
+                popup_0efb3a7aab58c5ac6ece929f118eb8a3.setContent(html_42a99587f92c052ddcc5d259e530f559);
+            
+        
+
+        marker_2eb86d6c583071316d4e48c697a5b334.bindPopup(popup_0efb3a7aab58c5ac6ece929f118eb8a3)
+        ;
+
+        
+    
+    
+                marker_2eb86d6c583071316d4e48c697a5b334.setIcon(icon_68f5d4b05e7e9e8cfb912c54e48990cd);
+            
+    
+            var marker_5171ad2038a5373c09cdba42480ed759 = L.marker(
+                [-6.996, 110.443],
+                {
+}
+            ).addTo(map_2ed997a90de70cd3d090448aaec035ae);
+        
+    
+            var icon_990d6d505373d80275d83e8208da35cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c8b7bf7e587ae5b4b9254b24ec75fb6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_676a956c92c8e2de9ca168e8942ba19c = $(`<div id="html_676a956c92c8e2de9ca168e8942ba19c" style="width: 100.0%; height: 100.0%;"><b>TPS Gayamsari</b><br>Jl. Pucang Gading No.4, RT 02/RW 02<br>Kec. Gayamsari<br>Status: Selesai</div>`)[0];
+                popup_c8b7bf7e587ae5b4b9254b24ec75fb6a.setContent(html_676a956c92c8e2de9ca168e8942ba19c);
+            
+        
+
+        marker_5171ad2038a5373c09cdba42480ed759.bindPopup(popup_c8b7bf7e587ae5b4b9254b24ec75fb6a)
+        ;
+
+        
+    
+    
+                marker_5171ad2038a5373c09cdba42480ed759.setIcon(icon_990d6d505373d80275d83e8208da35cc);
+            
+    
+            var marker_e04b8d81c7d6a6bf79ff707eb6361940 = L.marker(
+                [-6.99, 110.42],
+                {
+}
+            ).addTo(map_2ed997a90de70cd3d090448aaec035ae);
+        
+    
+            var icon_48c598ebcf23ade0b0e866b70c36ac2e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e04b5fa6390d6aef6b44cb1a1b038d60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b99c5cfb0829ce07255b9d3cdeb086d7 = $(`<div id="html_b99c5cfb0829ce07255b9d3cdeb086d7" style="width: 100.0%; height: 100.0%;"><b>TPS Semarang Tengah</b><br>Jl. Pemuda No.1, RT 01/RW 01<br>Kec. Semarang Tengah<br>Status: Ditangani</div>`)[0];
+                popup_e04b5fa6390d6aef6b44cb1a1b038d60.setContent(html_b99c5cfb0829ce07255b9d3cdeb086d7);
+            
+        
+
+        marker_e04b8d81c7d6a6bf79ff707eb6361940.bindPopup(popup_e04b5fa6390d6aef6b44cb1a1b038d60)
+        ;
+
+        
+    
+    
+                marker_e04b8d81c7d6a6bf79ff707eb6361940.setIcon(icon_48c598ebcf23ade0b0e866b70c36ac2e);
+            
+</script>
+</html>

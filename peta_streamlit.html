@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_eb49d00ee58bb3c7595ca276850fb3fb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_eb49d00ee58bb3c7595ca276850fb3fb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_eb49d00ee58bb3c7595ca276850fb3fb = L.map(
+                "map_eb49d00ee58bb3c7595ca276850fb3fb",
+                {
+                    center: [-6.9904, 110.4229],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5709e2e738780f5e4555f557bd9f5e82 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5709e2e738780f5e4555f557bd9f5e82.addTo(map_eb49d00ee58bb3c7595ca276850fb3fb);
+        
+    
+            var marker_6215df160eb2c97238c22d6c754d937d = L.marker(
+                [-6.982, 110.409],
+                {
+}
+            ).addTo(map_eb49d00ee58bb3c7595ca276850fb3fb);
+        
+    
+            var icon_623bc86830a0bd8b120032f141488bd7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_95271f50e75e713bed596e7dd7d1de81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0aef0268e39321c7f2211e961ddaa9b = $(`<div id="html_a0aef0268e39321c7f2211e961ddaa9b" style="width: 100.0%; height: 100.0%;">Sampah Organik<br>Jl. Mataram No.1, RT 01/RW 01, Kec. Semarang Barat<br>TPS umum dekat pasar Mataram<br>Status: Dilaporkan</div>`)[0];
+                popup_95271f50e75e713bed596e7dd7d1de81.setContent(html_a0aef0268e39321c7f2211e961ddaa9b);
+            
+        
+
+        marker_6215df160eb2c97238c22d6c754d937d.bindPopup(popup_95271f50e75e713bed596e7dd7d1de81)
+        ;
+
+        
+    
+    
+                marker_6215df160eb2c97238c22d6c754d937d.setIcon(icon_623bc86830a0bd8b120032f141488bd7);
+            
+    
+            var marker_925c020d96c01ea1da03934a0de477a7 = L.marker(
+                [-7.01, 110.459],
+                {
+}
+            ).addTo(map_eb49d00ee58bb3c7595ca276850fb3fb);
+        
+    
+            var icon_f2ee0bb4ef0da8ad723e34b85d174990 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a71b2989dc4443513b4b92ee93ef6dea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9a3d0e543f3614fa7ed3cd9f35237ec = $(`<div id="html_d9a3d0e543f3614fa7ed3cd9f35237ec" style="width: 100.0%; height: 100.0%;">Sampah Organik<br>Jl. Tlogosari Raya No.88, RT 03/RW 05, Kec. Pedurungan<br>TPS lingkungan perumahan Tlogosari<br>Status: Dilaporkan</div>`)[0];
+                popup_a71b2989dc4443513b4b92ee93ef6dea.setContent(html_d9a3d0e543f3614fa7ed3cd9f35237ec);
+            
+        
+
+        marker_925c020d96c01ea1da03934a0de477a7.bindPopup(popup_a71b2989dc4443513b4b92ee93ef6dea)
+        ;
+
+        
+    
+    
+                marker_925c020d96c01ea1da03934a0de477a7.setIcon(icon_f2ee0bb4ef0da8ad723e34b85d174990);
+            
+    
+            var marker_da4492bfececdf8aef5150152299b26e = L.marker(
+                [-7.071, 110.423],
+                {
+}
+            ).addTo(map_eb49d00ee58bb3c7595ca276850fb3fb);
+        
+    
+            var icon_51449e5c9183c794a11055fb70d453ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_60be05a853bbc43a475b0a27e917b741 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25d60409abed48fa46acdd467a08a154 = $(`<div id="html_25d60409abed48fa46acdd467a08a154" style="width: 100.0%; height: 100.0%;">Sampah Organik<br>Jl. Jatimulyo Raya No.17, RT 02/RW 04, Kec. Banyumanik<br>TPS wilayah Banyumanik<br>Status: Dilaporkan</div>`)[0];
+                popup_60be05a853bbc43a475b0a27e917b741.setContent(html_25d60409abed48fa46acdd467a08a154);
+            
+        
+
+        marker_da4492bfececdf8aef5150152299b26e.bindPopup(popup_60be05a853bbc43a475b0a27e917b741)
+        ;
+
+        
+    
+    
+                marker_da4492bfececdf8aef5150152299b26e.setIcon(icon_51449e5c9183c794a11055fb70d453ec);
+            
+    
+            var marker_69031ac76f0c26ad896bc8c569d9feb0 = L.marker(
+                [-6.986, 110.469],
+                {
+}
+            ).addTo(map_eb49d00ee58bb3c7595ca276850fb3fb);
+        
+    
+            var icon_bae9501215e39bbe4707e13df445a61a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9f6018a0156adfb683874b0b04975646 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3585d8cce41f61de43991e11dc0a4080 = $(`<div id="html_3585d8cce41f61de43991e11dc0a4080" style="width: 100.0%; height: 100.0%;">Sampah Organik<br>Jl. Kaligawe Raya No.33, RT 05/RW 02, Kec. Genuk<br>TPS pinggir jalan raya Kaligawe<br>Status: Dilaporkan</div>`)[0];
+                popup_9f6018a0156adfb683874b0b04975646.setContent(html_3585d8cce41f61de43991e11dc0a4080);
+            
+        
+
+        marker_69031ac76f0c26ad896bc8c569d9feb0.bindPopup(popup_9f6018a0156adfb683874b0b04975646)
+        ;
+
+        
+    
+    
+                marker_69031ac76f0c26ad896bc8c569d9feb0.setIcon(icon_bae9501215e39bbe4707e13df445a61a);
+            
+    
+            var marker_f4f73bdffcd2d86ab94981b7b5191243 = L.marker(
+                [-6.982, 110.393],
+                {
+}
+            ).addTo(map_eb49d00ee58bb3c7595ca276850fb3fb);
+        
+    
+            var icon_b95ffb2227f385721f47de8f51ad974f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_83528b3b88a677c9c394105bd0269c00 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba2a3eaf220f1cced2c1893963fc57a6 = $(`<div id="html_ba2a3eaf220f1cced2c1893963fc57a6" style="width: 100.0%; height: 100.0%;">Sampah Organik<br>Jl. Karangayu Tengah No.12, RT 01/RW 03, Kec. Semarang Barat<br>TPS dekat terminal Karangayu<br>Status: Dilaporkan</div>`)[0];
+                popup_83528b3b88a677c9c394105bd0269c00.setContent(html_ba2a3eaf220f1cced2c1893963fc57a6);
+            
+        
+
+        marker_f4f73bdffcd2d86ab94981b7b5191243.bindPopup(popup_83528b3b88a677c9c394105bd0269c00)
+        ;
+
+        
+    
+    
+                marker_f4f73bdffcd2d86ab94981b7b5191243.setIcon(icon_b95ffb2227f385721f47de8f51ad974f);
+            
+    
+            var marker_42d64b0e81859da773333c43ed68db27 = L.marker(
+                [-7.015, 110.41],
+                {
+}
+            ).addTo(map_eb49d00ee58bb3c7595ca276850fb3fb);
+        
+    
+            var icon_bdb4d48c0b62863ef0637ff739c3cb44 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c25dce0d902ea45e6ede3381f5860207 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12d45accbf565a1f9fba9128735071d2 = $(`<div id="html_12d45accbf565a1f9fba9128735071d2" style="width: 100.0%; height: 100.0%;">Sampah Organik<br>Jl. Jatingaleh Raya No.9, RT 04/RW 06, Kec. Candisari<br>TPS akses utama Jatingaleh<br>Status: Dilaporkan</div>`)[0];
+                popup_c25dce0d902ea45e6ede3381f5860207.setContent(html_12d45accbf565a1f9fba9128735071d2);
+            
+        
+
+        marker_42d64b0e81859da773333c43ed68db27.bindPopup(popup_c25dce0d902ea45e6ede3381f5860207)
+        ;
+
+        
+    
+    
+                marker_42d64b0e81859da773333c43ed68db27.setIcon(icon_bdb4d48c0b62863ef0637ff739c3cb44);
+            
+    
+            var marker_fb31be61e41a2405e2b70a6d22658c71 = L.marker(
+                [-7.02, 110.45],
+                {
+}
+            ).addTo(map_eb49d00ee58bb3c7595ca276850fb3fb);
+        
+    
+            var icon_b2056220f76ce860b03dc476ab8460c9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_16da5eeef455578cf410d89194780a76 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fcad2cd5d565110846a17e915dd0fdc7 = $(`<div id="html_fcad2cd5d565110846a17e915dd0fdc7" style="width: 100.0%; height: 100.0%;">Sampah Organik<br>Jl. BRT Raya No.22, RT 02/RW 01, Kec. Pedurungan<br>TPS wilayah padat Pedurungan<br>Status: Dilaporkan</div>`)[0];
+                popup_16da5eeef455578cf410d89194780a76.setContent(html_fcad2cd5d565110846a17e915dd0fdc7);
+            
+        
+
+        marker_fb31be61e41a2405e2b70a6d22658c71.bindPopup(popup_16da5eeef455578cf410d89194780a76)
+        ;
+
+        
+    
+    
+                marker_fb31be61e41a2405e2b70a6d22658c71.setIcon(icon_b2056220f76ce860b03dc476ab8460c9);
+            
+    
+            var marker_9ad40188b8c36e3da0503fbb5ec7ea52 = L.marker(
+                [-6.973, 110.475],
+                {
+}
+            ).addTo(map_eb49d00ee58bb3c7595ca276850fb3fb);
+        
+    
+            var icon_01a7492ea0c5af878a62d361c56c9355 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_de8d865edd56190206dc4f105e4db962 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2766d5bb40020ea7ffc740bae3691b15 = $(`<div id="html_2766d5bb40020ea7ffc740bae3691b15" style="width: 100.0%; height: 100.0%;">Sampah Organik<br>Jl. Genuk Indah No.7, RT 03/RW 05, Kec. Genuk<br>TPS permukiman Genuk<br>Status: Dilaporkan</div>`)[0];
+                popup_de8d865edd56190206dc4f105e4db962.setContent(html_2766d5bb40020ea7ffc740bae3691b15);
+            
+        
+
+        marker_9ad40188b8c36e3da0503fbb5ec7ea52.bindPopup(popup_de8d865edd56190206dc4f105e4db962)
+        ;
+
+        
+    
+    
+                marker_9ad40188b8c36e3da0503fbb5ec7ea52.setIcon(icon_01a7492ea0c5af878a62d361c56c9355);
+            
+    
+            var marker_24ef991f8727e28f7d6133d45daba8d3 = L.marker(
+                [-6.996, 110.443],
+                {
+}
+            ).addTo(map_eb49d00ee58bb3c7595ca276850fb3fb);
+        
+    
+            var icon_0f696a69fe4a47b8c5da63ccd34ca890 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_050e0fbf32eebe19ff728f43a8113cd6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eee774f49ea6f87945b468564657b380 = $(`<div id="html_eee774f49ea6f87945b468564657b380" style="width: 100.0%; height: 100.0%;">Sampah Organik<br>Jl. Pucang Gading No.4, RT 02/RW 02, Kec. Gayamsari<br>TPS wilayah Gayamsari<br>Status: Dilaporkan</div>`)[0];
+                popup_050e0fbf32eebe19ff728f43a8113cd6.setContent(html_eee774f49ea6f87945b468564657b380);
+            
+        
+
+        marker_24ef991f8727e28f7d6133d45daba8d3.bindPopup(popup_050e0fbf32eebe19ff728f43a8113cd6)
+        ;
+
+        
+    
+    
+                marker_24ef991f8727e28f7d6133d45daba8d3.setIcon(icon_0f696a69fe4a47b8c5da63ccd34ca890);
+            
+    
+            var marker_468c25c390eefe93e548818635289546 = L.marker(
+                [-6.99, 110.42],
+                {
+}
+            ).addTo(map_eb49d00ee58bb3c7595ca276850fb3fb);
+        
+    
+            var icon_81faf14457b860e306845edfddd90b00 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_295e8871e4c7506a5eb490a43acc84a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fca46bdcf493f4151a5f96d5c0d5bd3 = $(`<div id="html_0fca46bdcf493f4151a5f96d5c0d5bd3" style="width: 100.0%; height: 100.0%;">Sampah Organik<br>Jl. Pemuda No.1, RT 01/RW 01, Kec. Semarang Tengah<br>TPS pusat kota Semarang<br>Status: Dilaporkan</div>`)[0];
+                popup_295e8871e4c7506a5eb490a43acc84a0.setContent(html_0fca46bdcf493f4151a5f96d5c0d5bd3);
+            
+        
+
+        marker_468c25c390eefe93e548818635289546.bindPopup(popup_295e8871e4c7506a5eb490a43acc84a0)
+        ;
+
+        
+    
+    
+                marker_468c25c390eefe93e548818635289546.setIcon(icon_81faf14457b860e306845edfddd90b00);
+            
+</script>
+</html>
